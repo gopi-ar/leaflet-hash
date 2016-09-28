@@ -44,7 +44,7 @@
 			center.lat.toFixed(precision),
 			center.lng.toFixed(precision)
 		].join("/");
-	},
+	};
 
 	L.Hash.prototype = {
 		map: null,
@@ -150,12 +150,15 @@
 			this.isListening = false;
 		}
 	};
+
 	L.hash = function(map) {
 		return new L.Hash(map);
 	};
+
 	L.Map.prototype.addHash = function() {
 		this._hash = L.hash(this);
 	};
+
 	L.Map.prototype.removeHash = function() {
 		this._hash.removeFrom();
 	};
