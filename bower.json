@@ -1,0 +1,21 @@
+{
+  "name": "leaflet-hash",
+  "description": "linkable location hashes for leaflet",
+  "main": "",
+  "authors": [
+    "Johannes Rudolph"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PowerPan/leaflet-hash",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "leaflet": "^1.0.1"
+  }
+}
