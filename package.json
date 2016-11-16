@@ -2,7 +2,7 @@
   "author": "Johannes Rudolph",
   "name": "leaflet-hash",
   "description": "linkable location hashes for leaflet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/PowerPan/leaflet-hash",
   "repository": {
     "type": "git",
