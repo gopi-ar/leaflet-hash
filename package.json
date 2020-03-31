@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/PowerPan/leaflet-hash.git"
   },
+  "main": "dist/leaflet-hash.js",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-browserify": "5.0.0",
